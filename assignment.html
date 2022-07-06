@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="/download.png" alt="Employee image" class="emp" >
+    <h1 style="color: red;">Employee Registration form
+    </h1>
+    <form method="post" >
+        <table>
+            <tr>
+                <td></td>
+                <td><input type="radio" name="initial" checked>Mrs.
+                    <input type="radio" name="initial" checked>Mr.
+                    <input type="radio" name="initial" checked>Ms.
+                </td>
+            </tr>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="fn" placeholder="First Name"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="ln" placeholder="Last Name"></td>
+            </tr>
+            <tr>
+                <td>Mail Address</td>
+                <td><input type="text" name="add1" ></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text" name="cit" ></td>
+            </tr>
+            <tr>
+                <td>Mail Address</td>
+                <td><input type="text" name="add1" ></td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td><select name="select">
+                    <option value="Gujrat">Gujrat
+                        <option value="Maharashtra">Maharashtra
+                            <option value="Delhi">Delhi
+                                <option value="Pune">Pune
+                     </select></td>
+            </tr>
+            <tr>
+                <td>Zip</td>
+                <td><input type="text" name="zp" ></td>
+            </tr>
+            <tr>
+                <td>Upload Your Photo</td>
+                <td><input type="file" name="photo" ></td>
+            </tr>
+            <tr>
+                <td>E-Mail </td>
+                <td><input type="text" name="email" size="30" ></td>
+            </tr>
+            <tr>
+                <td>Mobile Number</td>
+                <td><input type="text" name="mob" placeholder="+91" ></td>
+            </tr>
+            <tr>
+                <td>Language Known</td>
+                <td><input type="checkbox" name="1k" value="Gujrati" che >Gujrati</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="1k" value="Hindi" checked >Hindi</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="1k" value="English" checked >English</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="1k" value="Sanskrit" checked >Sanskrit</td>
+            </tr>
+            <tr>
+                <td>Additional Information</td>
+                <td><textarea name="add" rows="3" cols="20" placeholder="optional" ></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="submit">
+                <input type="reset" value="reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
